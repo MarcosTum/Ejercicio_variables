@@ -1,0 +1,255 @@
+.conejo {
+    --conejo-piel: gray;
+    --pinguino-pico: yellow;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 300px;
+    height: 300px;
+  }
+  
+.conejo-superior {
+  top: -10%;
+  left: 25%;
+  background: rgb(151, 132, 79);
+  width: 50%;
+  height: 55%;
+  border-radius: 90% 90% 50% 50%;
+}
+
+.conejo-inferior {
+  top: 40%;
+  left: 23.5%;
+  background: rgb(151, 132, 79);
+  width: 53%;
+  height: 65%;
+  border-radius: 70% 70% 100% 100%;
+}
+
+.oreja-izquierda{
+    top: -105%;
+	left: -1%;
+	background: rgb(151, 132, 79);
+	width: 40%;
+	height: 130%;
+	border-radius: 70% 70% 70% 70%;
+	position: relative;
+    z-index: -1;
+    rotate: -25deg;
+}
+
+.oreja-d{
+    top: -90%;
+	left: 10%;
+	background: rgb(240, 157, 243);
+	width: 25%;
+	height: 120%;
+	border-radius: 70% 70% 70% 70%;
+	position: relative;
+    z-index: -1;
+    rotate: -25deg;
+}
+
+.oreja-derecha{
+    top: -105%;
+	left: 62%;
+	background: rgb(151, 132, 79);
+	width: 40%;
+	height: 130%;
+	border-radius: 70% 70% 70% 70%;
+	position: relative;
+    z-index: -1;
+    rotate: 25deg;
+}
+
+.oreja-de{
+    top: -90%;
+	left: 66%;
+	background: rgb(240, 157, 243);
+	width: 25%;
+	height: 120%;
+	border-radius: 70% 70% 70% 70%;
+	position: relative;
+    z-index: -1;
+    rotate: 25deg;
+}
+
+.mano-derecha {
+  top: 75%;
+  left: -5%;
+  background: rgb(168, 125, 45);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.mano-izquierda {
+  top: 75%;
+  left: 75%;
+  background: rgb(168, 125, 45);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.color-boca {
+  top: 45%;
+  left: 16%;
+  background: rgb(206, 201, 201);
+  width: 70%;
+  height: 30%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.bigote1 {
+  top: 50%;
+  left: 96%;
+  background: black;
+  width: 60%;
+  height: 1%;
+  border-radius: 70% 10% 60% 50%;
+  rotate: -185deg;
+}
+.bigote2 {
+    top: 55%;
+    left: -57%;
+    background: black;
+    width: 60%;
+    height: 1%;
+    border-radius: 70% 10% 60% 50%;
+    rotate: 1deg;
+  }
+  .bigote3 {
+    top: 35%;
+    left: -55%;
+    background: black;
+    width: 60%;
+    height: 1%;
+    border-radius: 70% 10% 60% 50%;
+    rotate: 15deg;
+  }
+  .bigote4 {
+    top: 35%;
+    left: 95%;
+    background: black;
+    width: 60%;
+    height: 1%;
+    border-radius: 70% 10% 60% 50%;
+    rotate: -195deg;
+  }
+
+.barriga {
+  top: 60%;
+  left: 2.5%;
+  background: var(--pinguino-barriga, white);
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
+}
+
+.ojo-derecho {
+  top: 25%;
+  left: 60%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.ojo-izquierdo {
+  top: 25%;
+  left: 25%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.reflejo-ojos {
+  top: 25%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.dientei {
+  top: 58%;
+  left: 43.6%;
+  background: white;
+  width: 5%;
+  height: 8%;
+}
+
+.diented {
+  top: 58%;
+  left: 51%;
+  background: white;
+  width: 5%;
+  height: 8%;
+}
+
+.nariz {
+  top: 44%;
+  left: 43%;
+  width: 0%;
+  height: 0%;
+  border-radius: 110% 110%;
+  border-top: solid  transparent 10px;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-bottom: solid rgb(233, 117, 117) 10px;
+  rotate: 180deg;
+}
+
+body {
+  background:#3a37ca;
+}
+
+.conejo * {
+  position: absolute;
+}
+
+.parteboca1{
+    top: 51%;
+  left: 49.2%;
+  background: black;
+  width: 1%;
+  height: 7%;
+}
+.parteboca2{
+    top: 57%;
+  left: 42%;
+  background: black;
+  width: 17%;
+  height: 1%;
+}
+
+.pie-derecho{
+    top: 65%;
+    left: -15%;
+    background: rgb(168, 125, 45);
+    width: 20%;
+    height: 55%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: -2222;
+    position: relative;
+    rotate: 15deg;
+}
+.pie-izquierdo {
+    top: 120%;
+    left: 95%;
+    background:  rgb(168, 125, 45);
+    width: 20%;
+    height: 55%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: -2222;
+    position: relative;
+    rotate: -15deg;
+  }
